@@ -1,0 +1,107 @@
+h1{
+    text-align: center;
+    padding:5px;
+    background-color:white;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #c228f1;
+}
+
+
+
+#opcoes{
+    width:100px;
+    height:20px;
+    padding: 5px;
+    font-size: 11px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    overflow-y: auto;
+    align-items: center;
+    background-color:#9A7BBE;
+}
+
+.quadro{
+background-color:#F3E8FF;
+color:black;
+width: 400px;
+height:400px;
+padding: 75px;
+border:6px groove purple;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba (0,0,0,0.1);
+display: flex;
+justify-content:flex-start;
+align-items: left;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nome{
+width:360px;
+padding:1px;
+}
+
+#email{
+ width:360px;
+ padding:1px;
+}
+
+
+#editar{
+    background-color:purple;
+    color: white;
+    margin-bottom:10px;
+    padding:5px 20px;
+    cursor:pointer;
+}
+
+
+#editar1{
+    background-color:purple; 
+    color: white;
+    margin-bottom:10px;
+    padding:5px 20px;
+    cursor:pointer;
+}
+
+
+#editar2{
+    background-color:purple;
+    color: white;
+    margin-bottom:10px;
+    padding:5px 20px;
+    cursor:pointer;
+   
+}
+
+.botoes{
+    display:flex;
+    margin-bottom:10px;
+    justify-content: baseline;
+    align-items: center;
+    padding:10px 20px;
+    gap:30px;
+    background-color:#F3E8FF;
+    cursor:pointer;
+}
+
+#editar:hover{
+    background-color:#c228f1; 
+    
+}
+
+#editar1:hover{
+    background-color:#c228f1; 
+}
+
+#editar2:hover{
+    background-color:#c228f1;
+}
