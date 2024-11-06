@@ -1,67 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Admissão de funcionarios</title>
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Admissão de Funcionários</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Cadastro de Admissão de funcionários</h1>
-    <br>
-    <br>
-    
-    
-    
-    
-    <div class="quadro">
+  <h1>Cadastro de Admissão de Funcionários</h1>
+  <div class="form-container">
     <form id="admissao">
-    <label for="nome">Nome completo:</label>
-    <input type="text" id="nome" name="nome" requeried>
-    <br>
-    <br>
-    <label for="Data">Data de Nascimento:</label>
-    <input id = "DN" type="date">
-    <br>
-    <br>
-    <label>Sexo:</label>
-    <label><input id="genero" type="radio" name="gender" value="masculino">Masculino</label>
-    <label><input id="genero" type="radio" name="gender" value="feminino">Feminino</label>
-    <br>
-    <br>
-    <label for="Nacionalidade">Nacionalidade:</label>
-    <input id = "Nac" type="text">
-    <br>
-    <br>
-    <label for="cid">Cidade/Estado:</label>
-    <input id = "End" type="text">
-    <br>
-    <br>
-    <label for="name">E-mail:</label>
-    <input type="email" id="email" placeholder="exemplo@gmail.com">
-    <br>
-    <br>
-    <label for="Num">Número de telefone:</label>
-    <input id = "Num" type="tel">
-    <br>
-    <br>
-    <label for="Cargo">Cargo:</label>
-    <input id = "Carg" type="tel">
-    <br>
-    <br>
-    <label for="DA">Data de Admissão:</label>
-    <input id = "DN" type="date">
-    </div>
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" name="nome" required>
+      
+      <label for="dataNascimento">Data de Nascimento:</label>
+      <input id="dataNascimento" type="date" required>
 
-    <div class="botoes">
-    <button id="editar">Editar</button>
-    <br>
-    <br>
-    <button id="editar1">Excluir</button>
-    <br>
-    <br>
-  <a href="index1.html"><button id="editar2">Voltar</button>
-    </div>
+      <label for="idade">Idade:</label>
+      <input id="idade" type="number" required>
 
+      <label for="nacionalidade">Nacionalidade:</label>
+      <input id="nacionalidade" type="text" required>
+
+      <label for="setor">Setor:</label>
+      <input id="setor" type="text" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" required>
+
+      <label for="dataAdmissao">Data de Admissão:</label>
+      <input id="dataAdmissao" type="date" required>
+
+      <button type="submit" id="salvar">Salvar</button>
+    </form>
+  </div>
+
+<ul id="lista"></ul>
+<div class="voltar"><a href = "index4.html" target="_blank">Voltar</div>
+</div>
+
+  <script src="script.js"></script>
 </body>
 </html>
+

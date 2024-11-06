@@ -1,0 +1,78 @@
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+body{
+    background-image:url("rh.jpg");
+    background-size: auto;
+}
+
+.home{
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-home{
+    background-color:purple;
+    border-color: rgb(194, 142, 244);
+    color:white;
+    border-radius:20px;
+    width:120px;
+    height: auto;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 25px;
+    margin:35px;
+    align-items: center;
+}
+    
+.menu-formulario{
+    background-color:purple;
+    border-color: rgb(194, 142, 244);
+    color:white;
+    border-radius:20px;
+    width:120px;
+    height: auto;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 25px;
+    margin:35px;
+}
+
+.menu-info{
+    background-color:purple;
+    border-color: rgb(194, 142, 244);
+    color:#fff;
+    border-radius:20px;
+    width:120px;
+    height: auto;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 25px;
+    margin:35px;
+}
+
+.menu-home:hover{
+    background-color: #c228f1;
+    color: #fff;
+    cursor: pointer;
+}
+.menu-formulario:hover{
+    background-color: #c228f1;
+    color: #fff;
+    cursor: pointer;
+
+}
+.menu-info:hover{
+    background-color: #c228f1;
+    color: #fff;
+    cursor: pointer;
+}
